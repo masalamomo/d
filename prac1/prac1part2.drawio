@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="2">
+  <diagram id="architecture" name="Target Architecture">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#0f172a;fontColor=#172033;fontSize=22;fontStyle=1;spacing=10;fontColor=#ffffff;" value="ENTERPRISE CLOUD ADOPTION STRATEGY" vertex="1">
+          <mxGeometry height="50" width="560" x="300" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="apps" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#64748b;fontColor=#172033;fontSize=16;fontStyle=1;spacing=10;" value="ENTERPRISE APPLICATIONS&#xa;Customer Portal • ERP System • Plant Control • Reporting System" vertex="1">
+          <mxGeometry height="75" width="560" x="300" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="assessment" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#64748b;fontColor=#172033;fontSize=15;fontStyle=1;spacing=10;" value="CLOUD ADOPTION ASSESSMENT&#xa;Cloud First + Cloud Smart&#xa;Business value • Security • Compliance • Latency • Cost" vertex="1">
+          <mxGeometry height="90" width="560" x="300" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="public" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#172033;fontSize=16;fontStyle=1;spacing=10;" value="PUBLIC CLOUD&#xa;Customer Portal&#xa;Reporting System" vertex="1">
+          <mxGeometry height="115" width="300" x="55" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1fae5;strokeColor=#059669;fontColor=#172033;fontSize=16;fontStyle=1;spacing=10;" value="HYBRID CLOUD&#xa;ERP System&#xa;Cloud services + On-premises dependencies" vertex="1">
+          <mxGeometry height="115" width="300" x="435" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#172033;fontSize=15;fontStyle=1;spacing=10;" value="RETAIN ON-PREMISES&#xa;Plant Control&#xa;Reason: Very low latency and operational hardware" vertex="1">
+          <mxGeometry height="115" width="300" x="815" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="apps" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="assessment" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="assessment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="public" value="Cloud First">
+          <mxGeometry relative="1" x="0.0106" y="-17" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="assessment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="hybrid" value="Cloud Smart">
+          <mxGeometry relative="1" x="-0.3684" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="580" y="370" />
+              <mxPoint x="580" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="assessment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="onprem" value="Cloud Smart exception">
+          <mxGeometry relative="1" x="-0.0104" y="18" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="footer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#94a3b8;fontColor=#172033;fontSize=13;fontStyle=0;spacing=10;" value="Governance: monitor cost, availability, security compliance, and user experience." vertex="1">
+          <mxGeometry height="55" width="670" x="250" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="roadmap" name="Migration Roadmap">
+    <mxGraphModel dx="1308" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#0f172a;fontColor=#172033;fontSize=22;fontStyle=1;spacing=10;fontColor=#ffffff;" value="MIGRATION ROADMAP" vertex="1">
+          <mxGeometry height="50" width="470" x="350" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wave1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#172033;fontSize=15;fontStyle=1;spacing=10;" value="WAVE 1 — LOW RISK&#xa;Customer Portal&#xa;Reporting System&#xa;Actions: migrate, test, validate" vertex="1">
+          <mxGeometry height="145" width="300" x="55" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="wave2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#64748b;fontColor=#172033;fontSize=15;fontStyle=1;spacing=10;" value="WAVE 2 — PREPARATION&#xa;Prepare medium-complexity workloads&#xa;Review dependencies, security, and cost" vertex="1">
+          <mxGeometry height="145" width="300" x="435" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="wave3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1fae5;strokeColor=#059669;fontColor=#172033;fontSize=15;fontStyle=1;spacing=10;" value="WAVE 3 — COMPLEX WORKLOAD&#xa;ERP System&#xa;Phased hybrid migration and validation" vertex="1">
+          <mxGeometry height="145" width="300" x="815" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="wave1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="wave2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="wave2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="wave3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="retain" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#172033;fontSize=15;fontStyle=1;spacing=10;" value="RETAIN ON-PREMISES&#xa;Plant Control remains on-premises due to very low latency and operational dependencies. Review periodically." vertex="1">
+          <mxGeometry height="85" width="790" x="190" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#64748b;fontColor=#172033;fontSize=14;fontStyle=1;spacing=10;" value="SUCCESS METRICS &amp; GOVERNANCE&#xa;Workloads assessed • Availability target 99.9% • Security compliance 100%&#xa;Cloud spending within budget • User experience maintained" vertex="1">
+          <mxGeometry height="90" width="790" x="190" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="wave3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#64748b;fontSize=12;" target="monitor" value="Monitor after migration">
+          <mxGeometry relative="1" x="0.2444" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1030" y="490" />
+              <mxPoint x="585" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
